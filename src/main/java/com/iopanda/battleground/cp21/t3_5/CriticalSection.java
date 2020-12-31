@@ -109,7 +109,7 @@ class PairManipulator implements Runnable {
 
     @Override
     public String toString(){
-        return "Pair: " + pm.checkCounter.get();
+        return "Pair: " + pm.getPair() + ", checkCounter = " +  pm.checkCounter.get();
     }
 }
 
